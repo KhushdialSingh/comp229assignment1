@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="assignment1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link rel="stylesheet" href="Content\app.css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div id="mainDiv">
+
+            <ul>
+                <li id="Li1" runat="server"><img id="logo" src="Assets\logo1.png" /></li>
+                <li id="Li2" runat="server"><a href="default.aspx">Home</a></li>
+                <li id="Li3" runat="server"><a href="contact.aspx">Contact Me</a></li>
+                <li id="Li4" runat="server"><a href="projects.aspx">Projects</a></li>
+                <li id="Li5" runat="server"><a href="about.aspx">About</a></li>
+                <li id="Li6" runat="server"><a href="services.aspx">Services</a></li>
+            </ul>
+
+        <asp:ContentPlaceHolder ID="mainContent1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
