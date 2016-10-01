@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="assignment1.Site" %>
-
+<!-- First master page -->
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
