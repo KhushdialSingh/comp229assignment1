@@ -67,6 +67,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.aspx" />
+    <Content Include="Assets\banner.jpg" />
+    <Content Include="Assets\facebook.png" />
+    <Content Include="Assets\google.png" />
+    <Content Include="Assets\instagram.png" />
+    <Content Include="Assets\projects.jpg" />
+    <Content Include="Assets\services.jpg" />
+    <Content Include="Assets\snapchat.png" />
     <Content Include="packages.config" />
     <Content Include="services.aspx" />
     <Content Include="Site.Master" />
