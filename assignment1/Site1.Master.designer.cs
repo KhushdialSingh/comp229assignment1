@@ -13,15 +13,6 @@ namespace assignment1 {
     public partial class Site1 {
         
         /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
         /// Li1 control.
         /// </summary>
         /// <remarks>
@@ -40,13 +31,13 @@ namespace assignment1 {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Li2;
         
         /// <summary>
-        /// Li3 control.
+        /// Li5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Li3;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Li5;
         
         /// <summary>
         /// Li4 control.
@@ -58,15 +49,6 @@ namespace assignment1 {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Li4;
         
         /// <summary>
-        /// Li5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Li5;
-        
-        /// <summary>
         /// Li6 control.
         /// </summary>
         /// <remarks>
@@ -74,6 +56,15 @@ namespace assignment1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Li6;
+        
+        /// <summary>
+        /// Li3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Li3;
         
         /// <summary>
         /// mainContent1 control.

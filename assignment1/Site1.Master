@@ -4,29 +4,37 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-
+    <link rel="stylesheet" href="Content\bootstrap.min.css">
+    <link rel="stylesheet" href="Content\bootstrap-theme.min.css">
+    <link rel="stylesheet" href="Content\font-awesome.min.css">
     <link rel="stylesheet" href="Content\app.css" />
 
 </head>
 <body>
-    <form id="form1" runat="server">
     
         <div id="mainDiv">
 
             <ul>
-                <li id="Li1" runat="server"><img id="logo" src="Assets\logo1.png" /></li>
+                <li id="Li1" runat="server"><img onclick="location.href='default.aspx'" id="logo" src="Assets\logo1.png" /></li>
                 <li id="Li2" runat="server"><a href="default.aspx">Home</a></li>
-                <li id="Li3" runat="server"><a href="contact.aspx">Contact Me</a></li>
-                <li id="Li4" runat="server"><a href="projects.aspx">Projects</a></li>
                 <li id="Li5" runat="server"><a href="about.aspx">About</a></li>
+                <li id="Li4" runat="server"><a href="projects.aspx">Projects</a></li>
                 <li id="Li6" runat="server"><a href="services.aspx">Services</a></li>
+                <li id="Li3" runat="server"><a href="contact.aspx">Contact Me</a></li>
             </ul>
 
         <asp:ContentPlaceHolder ID="mainContent1" runat="server">
         
         </asp:ContentPlaceHolder>
+    <div class="footer">
+      	<h5 style='font-weight: bold;'>&nbsp;Copyright &copy; Khushdial Singh - Student#: 300878370 - Software Engineering Technician</h5>
     </div>
-    </form>
+    </div>
+
+    
+
+
+    <script src="Scripts\jquery-2.2.4.min.js"></script>
+    <script src="Scripts\bootstrap.min.js"></script>
 </body>
 </html>

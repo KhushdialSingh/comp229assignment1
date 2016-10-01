@@ -15,12 +15,16 @@ body{
 
 /* setting properties of the main div */
 #mainDiv{
+    padding-top: 60px;
     width: 1024px;
     margin: auto;
 }
 
 /* setting properties of the navbar */
 ul {
+    top: 0;
+    position: fixed;
+    width: 1024px;
     height: 60px;
     list-style-type: none;
     margin: 0;
@@ -34,7 +38,7 @@ li {
 }
 
 li a {
-    height: 22px;
+    height: 50px;
     margin-top: 5px;
     display: block;
     font-size: 20px;
@@ -79,11 +83,29 @@ li a:hover {
     width: 70%;
     text-align: center;
 }
-#content1{
-    width: 70%;
+.content1{
+    width: 68%;
     float: left;
     padding-left: 20px;
     font-size: 20px;
+}
+
+.content2{
+    width: 68%;
+    float: right;
+    font-size: 20px;
+}
+
+#personal{
+    
+    width: 68%;
+    float: left;
+    padding-left: 20px;
+}
+#mission{
+    width: 68%;
+    float: left;
+    padding-left: 20px;
 }
 
 textarea{
@@ -119,11 +141,62 @@ textarea{
     height: auto;
 }
 
-#link{
+.link{
     font-size: 20px;
 }
 
 
-/*
-w3schools.com was used to make the navbar
-*/
+.footer{
+    width: 1024px;
+    float: left;
+    background-color: rgb(179,179,179);
+    bottom: 0;
+    position: fixed;
+}
+
+#container {
+    width: 824px;
+    margin:auto;
+    padding-bottom: 50px;
+}
+
+#banner {
+    width: 824px;
+}
+
+#projects{
+    width:410px;
+    height: auto;
+    float: left;
+}
+
+#services{
+    margin-left: 4px;
+    width:410px;
+    height: 226px;
+    float: left;
+}
+
+.text1{
+    width:410px;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+.text2{
+    margin-left: 4px;
+    width:410px;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+}
+
+.services{
+    font-size:20px;
+}
